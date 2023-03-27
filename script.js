@@ -149,7 +149,6 @@ function changePic(){
     if(hourCheck <= 10){
         hourCheck += 12;
     }
-    document.write(hourCheck);
     if(hourCheck >= houur || hourCheck >= 0 && hourCheck <= houur2){
         document.getElementById('cardtemp').style.backgroundImage="url('https://images.pexels.com/photos/416823/pexels-photo-416823.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')";
         document.getElementById('cardtemp').style.backgroundPosition = "bottom";
